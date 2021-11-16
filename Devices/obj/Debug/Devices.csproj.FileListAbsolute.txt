@@ -1,0 +1,10 @@
+E:\labs\devices\Devices\Devices\bin\Debug\Devices.exe.config
+E:\labs\devices\Devices\Devices\bin\Debug\Devices.exe
+E:\labs\devices\Devices\Devices\bin\Debug\Devices.pdb
+E:\labs\devices\Devices\Devices\obj\Debug\Devices.csprojAssemblyReference.cache
+E:\labs\devices\Devices\Devices\obj\Debug\Devices.Form1.resources
+E:\labs\devices\Devices\Devices\obj\Debug\Devices.Properties.Resources.resources
+E:\labs\devices\Devices\Devices\obj\Debug\Devices.csproj.GenerateResource.cache
+E:\labs\devices\Devices\Devices\obj\Debug\Devices.csproj.CoreCompileInputs.cache
+E:\labs\devices\Devices\Devices\obj\Debug\Devices.exe
+E:\labs\devices\Devices\Devices\obj\Debug\Devices.pdb
