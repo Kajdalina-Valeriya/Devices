@@ -10,17 +10,23 @@ using System.Windows.Forms;
 
 namespace Devices
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
-            Form2 newForm = new Form2(this);
-            newForm.Show();
+
         }
+
+        public Form2(Form1 f)
+        {
+            InitializeComponent();
+        }
+
+        
     }
 }
