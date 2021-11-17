@@ -9,3 +9,4 @@ E:\labs\devices\Devices\Devices\obj\Debug\Devices.csproj.CoreCompileInputs.cache
 E:\labs\devices\Devices\Devices\obj\Debug\Devices.exe
 E:\labs\devices\Devices\Devices\obj\Debug\Devices.pdb
 E:\labs\devices\Devices\Devices\obj\Debug\Devices.Form2.resources
+E:\labs\devices\Devices\Devices\obj\Debug\Devices.Form3.resources
