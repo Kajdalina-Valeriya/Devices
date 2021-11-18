@@ -32,5 +32,12 @@ namespace Devices
             Form3 newForm = new Form3();
             newForm.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Список пациентов пуст! Введите данные пациента");
+            Form4 newForm = new Form4();
+            newForm.Show();
+        }
     }
 }
