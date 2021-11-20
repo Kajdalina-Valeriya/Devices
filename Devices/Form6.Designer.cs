@@ -36,7 +36,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.GhostWhite;
-            this.button4.Location = new System.Drawing.Point(377, 391);
+            this.button4.Location = new System.Drawing.Point(345, 381);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(125, 36);
             this.button4.TabIndex = 3;
@@ -47,7 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(349, 33);
+            this.label1.Location = new System.Drawing.Point(316, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(173, 29);
             this.label1.TabIndex = 4;
@@ -63,7 +63,7 @@
             "Силовые",
             "Прыжки",
             "Вело"});
-            this.checkedListBox1.Location = new System.Drawing.Point(249, 90);
+            this.checkedListBox1.Location = new System.Drawing.Point(223, 87);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(371, 257);
             this.checkedListBox1.TabIndex = 6;

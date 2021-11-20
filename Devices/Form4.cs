@@ -26,6 +26,7 @@ namespace Devices
         {
             Form5 newForm = new Form5();
             newForm.Show();
+            Hide();
         }
     }
 }

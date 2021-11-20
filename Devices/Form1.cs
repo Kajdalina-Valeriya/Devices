@@ -21,6 +21,7 @@ namespace Devices
         {
             Form2 newForm = new Form2(this);
             newForm.Show();
+            Hide();
         }
     }
 }

@@ -21,12 +21,14 @@ namespace Devices
         {
             Form6 newForm = new Form6();
             newForm.Show();
+            Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form4 newForm = new Form4();
             newForm.Show();
+            Hide();
         }
     }
 }

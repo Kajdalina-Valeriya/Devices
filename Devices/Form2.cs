@@ -31,6 +31,7 @@ namespace Devices
         {
             Form3 newForm = new Form3();
             newForm.Show();
+            Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -38,6 +39,7 @@ namespace Devices
             MessageBox.Show("Список пациентов пуст! Введите данные пациента");
             Form4 newForm = new Form4();
             newForm.Show();
+            Hide();
         }
     }
 }
