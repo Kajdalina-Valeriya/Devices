@@ -23,5 +23,12 @@ namespace Devices
             newForm.Show();
             Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form7 newForm = new Form7();
+            newForm.Show();
+            Hide();
+        }
     }
 }

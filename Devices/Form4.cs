@@ -19,12 +19,24 @@ namespace Devices
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form5 newForm = new Form5();
+            string pol = comboBox1.SelectedValue.ToString();
+            if (pol != "Ж" || pol != "М")
+                MessageBox.Show("Вы не верно ввели пол! Выберите пол из списка");
+            else
+            {
+                Form5 newForm = new Form5();
+                newForm.Show();
+                Hide();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 newForm = new Form2();
             newForm.Show();
             Hide();
         }

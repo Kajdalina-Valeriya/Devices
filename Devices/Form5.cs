@@ -12,9 +12,11 @@ namespace Devices
 {
     public partial class Form5 : Form
     {
+       
         public Form5()
         {
             InitializeComponent();
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
