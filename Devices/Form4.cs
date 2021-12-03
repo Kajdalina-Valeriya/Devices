@@ -23,15 +23,28 @@ namespace Devices
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string pol = comboBox1.SelectedValue.ToString();
-            if (pol != "Ж" || pol != "М")
-                MessageBox.Show("Вы не верно ввели пол! Выберите пол из списка");
-            else
+            
+            switch (comboBox1.Text) 
             {
-                Form5 newForm = new Form5();
-                newForm.Show();
-                Hide();
+                case "М":
+                    {
+                        Form5 newForm = new Form5();
+                        newForm.Show();
+                        Hide();
+                        break;
+                    }
+                case "Ж":
+                    {
+                        Form5 newForm = new Form5();
+                        newForm.Show();
+                        Hide();
+                        break;
+                    }
+                default:
+                    MessageBox.Show("Вы не верно ввели пол! Выберите пол из списка");
+                    break;
             }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
