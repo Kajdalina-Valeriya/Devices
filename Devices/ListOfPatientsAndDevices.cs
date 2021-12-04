@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Devices
 {
-    public partial class Form2 : Form
+    public partial class ListOfPatientsAndDevices : Form
     {
-        public Form2()
+        public ListOfPatientsAndDevices()
         {
             InitializeComponent();
         }
@@ -22,19 +22,19 @@ namespace Devices
 
         }
 
-        public Form2(Form1 f)
+        public ListOfPatientsAndDevices(DoctorOrAdmin f)
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonbuttonListOfDevices_Click(object sender, EventArgs e)
         {
             Form3 newForm = new Form3();
             newForm.Show();
             Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonListOfPatients_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Список пациентов пуст! Введите данные пациента");
             Form4 newForm = new Form4();

@@ -10,21 +10,25 @@ using System.Windows.Forms;
 
 namespace Devices
 {
-    public partial class Form3 : Form
+    public partial class Form5 : Form
     {
-        public Form3()
+       
+        public Form5()//bool flag)
         {
             InitializeComponent();
+            //button3
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            
+            Form6 newForm = new Form6();
+            newForm.Show();
+            Hide();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Form2 newForm = new Form2();
+            FormToAddNewPatient newForm = new FormToAddNewPatient();
             newForm.Show();
             Hide();
         }

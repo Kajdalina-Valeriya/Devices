@@ -11,22 +11,22 @@ using System.Windows.Forms;
 namespace Devices
 {
     
-    public partial class Form1 : Form
+    public partial class DoctorOrAdmin : Form
     {
         //bool flag = true;
-        public Form1()
+        public DoctorOrAdmin()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonDoctor_Click(object sender, EventArgs e)
         {
             Form2 newForm = new Form2(this);
             newForm.Show();
             Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ButtonAdmin_Click(object sender, EventArgs e)
         {
             //flag = false;
             Form5 newForm = new Form5();//flag);
