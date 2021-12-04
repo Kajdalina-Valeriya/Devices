@@ -13,7 +13,7 @@ namespace Devices
     
     public partial class DoctorOrAdmin : Form
     {
-        //bool flag = true;
+        bool flag = true;
         public DoctorOrAdmin()
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace Devices
 
         private void ButtonAdmin_Click(object sender, EventArgs e)
         {
-            //flag = false;
+            flag = false;
             ListOfPatients newForm = new ListOfPatients();//flag);
             newForm.Show();
             Hide();
