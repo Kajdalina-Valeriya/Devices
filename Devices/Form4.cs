@@ -23,7 +23,6 @@ namespace Devices
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
             switch (comboBox1.Text) 
             {
                 case "М":

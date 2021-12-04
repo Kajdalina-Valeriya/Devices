@@ -13,10 +13,10 @@ namespace Devices
     public partial class Form5 : Form
     {
        
-        public Form5()
+        public Form5()//bool flag)
         {
             InitializeComponent();
-           
+            //button3
         }
 
         private void button3_Click(object sender, EventArgs e)

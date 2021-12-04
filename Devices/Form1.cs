@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace Devices
 {
+    
     public partial class Form1 : Form
     {
+        //bool flag = true;
         public Form1()
         {
             InitializeComponent();
@@ -26,7 +28,8 @@ namespace Devices
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form7 newForm = new Form7();
+            //flag = false;
+            Form5 newForm = new Form5();//flag);
             newForm.Show();
             Hide();
         }
