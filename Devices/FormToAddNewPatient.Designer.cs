@@ -1,6 +1,6 @@
 ﻿namespace Devices
 {
-    partial class Form4
+    partial class FormToAddNewPatient
     {
         /// <summary>
         /// Required designer variable.
@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonAddNewPatient = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBoxFIO = new System.Windows.Forms.TextBox();
+            this.textBoxAge = new System.Windows.Forms.TextBox();
+            this.comboBoxChoosePol = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonAddNewPatient
             // 
-            this.button1.Location = new System.Drawing.Point(292, 372);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(212, 46);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Добавить пациента";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonAddNewPatient.Location = new System.Drawing.Point(292, 372);
+            this.buttonAddNewPatient.Name = "buttonAddNewPatient";
+            this.buttonAddNewPatient.Size = new System.Drawing.Size(212, 46);
+            this.buttonAddNewPatient.TabIndex = 0;
+            this.buttonAddNewPatient.Text = "Добавить пациента";
+            this.buttonAddNewPatient.UseVisualStyleBackColor = true;
+            this.buttonAddNewPatient.Click += new System.EventHandler(this.buttonAddNewPatient_Click);
             // 
             // label1
             // 
@@ -75,34 +75,36 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Введите возраст пациента";
             // 
-            // textBox1
+            // textBoxFIO
             // 
-            this.textBox1.BackColor = System.Drawing.Color.GhostWhite;
-            this.textBox1.Location = new System.Drawing.Point(292, 95);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(212, 26);
-            this.textBox1.TabIndex = 7;
+            this.textBoxFIO.BackColor = System.Drawing.Color.GhostWhite;
+            this.textBoxFIO.Location = new System.Drawing.Point(292, 95);
+            this.textBoxFIO.Name = "textBoxFIO";
+            this.textBoxFIO.Size = new System.Drawing.Size(212, 26);
+            this.textBoxFIO.TabIndex = 7;
+            this.textBoxFIO.TextChanged += new System.EventHandler(this.textBoxFIO_TextChanged);
             // 
-            // textBox2
+            // textBoxAge
             // 
-            this.textBox2.BackColor = System.Drawing.Color.GhostWhite;
-            this.textBox2.Location = new System.Drawing.Point(292, 314);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 26);
-            this.textBox2.TabIndex = 8;
+            this.textBoxAge.BackColor = System.Drawing.Color.GhostWhite;
+            this.textBoxAge.Location = new System.Drawing.Point(292, 314);
+            this.textBoxAge.Name = "textBoxAge";
+            this.textBoxAge.Size = new System.Drawing.Size(212, 26);
+            this.textBoxAge.TabIndex = 8;
+            this.textBoxAge.TextChanged += new System.EventHandler(this.textBoxAge_TextChanged);
             // 
-            // comboBox1
+            // comboBoxChoosePol
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.GhostWhite;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxChoosePol.BackColor = System.Drawing.Color.GhostWhite;
+            this.comboBoxChoosePol.FormattingEnabled = true;
+            this.comboBoxChoosePol.Items.AddRange(new object[] {
             "Ж",
             "М"});
-            this.comboBox1.Location = new System.Drawing.Point(292, 202);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(212, 28);
-            this.comboBox1.TabIndex = 9;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBoxChoosePol.Location = new System.Drawing.Point(292, 202);
+            this.comboBoxChoosePol.Name = "comboBoxChoosePol";
+            this.comboBoxChoosePol.Size = new System.Drawing.Size(212, 28);
+            this.comboBoxChoosePol.TabIndex = 9;
+            this.comboBoxChoosePol.SelectedIndexChanged += new System.EventHandler(this.comboBoxChoosePol_SelectedIndexChanged);
             // 
             // button2
             // 
@@ -115,21 +117,21 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form4
+            // FormToAddNewPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comboBoxChoosePol);
+            this.Controls.Add(this.textBoxAge);
+            this.Controls.Add(this.textBoxFIO);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Name = "Form4";
+            this.Controls.Add(this.buttonAddNewPatient);
+            this.Name = "FormToAddNewPatient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Devices";
             this.ResumeLayout(false);
@@ -139,13 +141,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonAddNewPatient;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBoxFIO;
+        private System.Windows.Forms.TextBox textBoxAge;
+        private System.Windows.Forms.ComboBox comboBoxChoosePol;
         private System.Windows.Forms.Button button2;
     }
 }

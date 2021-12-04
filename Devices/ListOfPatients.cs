@@ -10,27 +10,42 @@ using System.Windows.Forms;
 
 namespace Devices
 {
-    public partial class Form5 : Form
+    public partial class ListOfPatients : Form
     {
        
-        public Form5()//bool flag)
+        public ListOfPatients()//bool flag)
         {
             InitializeComponent();
             //button3
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void buttonScheduleAnExamination_Click(object sender, EventArgs e)
         {
-            Form6 newForm = new Form6();
+            ListOfExaminations newForm = new ListOfExaminations();
             newForm.Show();
             Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonAddPatient_Click(object sender, EventArgs e)
         {
             FormToAddNewPatient newForm = new FormToAddNewPatient();
             newForm.Show();
             Hide();
+        }
+
+        private void radioButtonNewPatient_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDeletePatient_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCheckAnExamination_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

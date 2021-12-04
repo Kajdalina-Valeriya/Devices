@@ -1,6 +1,6 @@
 ﻿namespace Devices
 {
-    partial class Form5
+    partial class ListOfPatients
     {
         /// <summary>
         /// Required designer variable.
@@ -28,57 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.buttonDeletePatient = new System.Windows.Forms.Button();
+            this.buttonAddPatient = new System.Windows.Forms.Button();
+            this.buttonScheduleAnExamination = new System.Windows.Forms.Button();
+            this.buttonCheckAnExamination = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButtonNewPatient = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonDeletePatient
             // 
-            this.button1.BackColor = System.Drawing.Color.GhostWhite;
-            this.button1.Location = new System.Drawing.Point(12, 367);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 71);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Удалить пациента";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonDeletePatient.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonDeletePatient.Location = new System.Drawing.Point(12, 367);
+            this.buttonDeletePatient.Name = "buttonDeletePatient";
+            this.buttonDeletePatient.Size = new System.Drawing.Size(153, 71);
+            this.buttonDeletePatient.TabIndex = 0;
+            this.buttonDeletePatient.Text = "Удалить пациента";
+            this.buttonDeletePatient.UseVisualStyleBackColor = false;
+            this.buttonDeletePatient.Click += new System.EventHandler(this.buttonDeletePatient_Click);
             // 
-            // button2
+            // buttonAddPatient
             // 
-            this.button2.BackColor = System.Drawing.Color.GhostWhite;
-            this.button2.Location = new System.Drawing.Point(229, 367);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 71);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Добавить пациента";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.buttonAddPatient.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonAddPatient.Location = new System.Drawing.Point(229, 367);
+            this.buttonAddPatient.Name = "buttonAddPatient";
+            this.buttonAddPatient.Size = new System.Drawing.Size(153, 71);
+            this.buttonAddPatient.TabIndex = 1;
+            this.buttonAddPatient.Text = "Добавить пациента";
+            this.buttonAddPatient.UseVisualStyleBackColor = false;
+            this.buttonAddPatient.Click += new System.EventHandler(this.buttonAddPatient_Click);
             // 
-            // button3
+            // buttonScheduleAnExamination
             // 
-            this.button3.BackColor = System.Drawing.Color.GhostWhite;
-            this.button3.Location = new System.Drawing.Point(441, 367);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 71);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Назначить обследование";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.buttonScheduleAnExamination.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonScheduleAnExamination.Location = new System.Drawing.Point(441, 367);
+            this.buttonScheduleAnExamination.Name = "buttonScheduleAnExamination";
+            this.buttonScheduleAnExamination.Size = new System.Drawing.Size(153, 71);
+            this.buttonScheduleAnExamination.TabIndex = 2;
+            this.buttonScheduleAnExamination.Text = "Назначить обследование";
+            this.buttonScheduleAnExamination.UseVisualStyleBackColor = false;
+            this.buttonScheduleAnExamination.Click += new System.EventHandler(this.buttonScheduleAnExamination_Click);
             // 
-            // button4
+            // buttonCheckAnExamination
             // 
-            this.button4.BackColor = System.Drawing.Color.GhostWhite;
-            this.button4.Location = new System.Drawing.Point(635, 367);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(153, 71);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Просмотреть текущее обследование";
-            this.button4.UseVisualStyleBackColor = false;
+            this.buttonCheckAnExamination.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonCheckAnExamination.Location = new System.Drawing.Point(635, 367);
+            this.buttonCheckAnExamination.Name = "buttonCheckAnExamination";
+            this.buttonCheckAnExamination.Size = new System.Drawing.Size(153, 71);
+            this.buttonCheckAnExamination.TabIndex = 3;
+            this.buttonCheckAnExamination.Text = "Просмотреть текущее обследование";
+            this.buttonCheckAnExamination.UseVisualStyleBackColor = false;
+            this.buttonCheckAnExamination.Click += new System.EventHandler(this.buttonCheckAnExamination_Click);
             // 
             // richTextBox1
             // 
@@ -89,16 +91,17 @@
             this.richTextBox1.TabIndex = 4;
             this.richTextBox1.Text = "";
             // 
-            // radioButton1
+            // radioButtonNewPatient
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(12, 25);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(278, 24);
-            this.radioButton1.TabIndex = 5;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Кайдалина Валерия Андреевна";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButtonNewPatient.AutoSize = true;
+            this.radioButtonNewPatient.Location = new System.Drawing.Point(12, 25);
+            this.radioButtonNewPatient.Name = "radioButtonNewPatient";
+            this.radioButtonNewPatient.Size = new System.Drawing.Size(278, 24);
+            this.radioButtonNewPatient.TabIndex = 5;
+            this.radioButtonNewPatient.TabStop = true;
+            this.radioButtonNewPatient.Text = "Кайдалина Валерия Андреевна";
+            this.radioButtonNewPatient.UseVisualStyleBackColor = true;
+            this.radioButtonNewPatient.CheckedChanged += new System.EventHandler(this.radioButtonNewPatient_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -120,7 +123,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // Form5
+            // ListOfPatients
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,13 +131,13 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.radioButtonNewPatient);
             this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form5";
+            this.Controls.Add(this.buttonCheckAnExamination);
+            this.Controls.Add(this.buttonScheduleAnExamination);
+            this.Controls.Add(this.buttonAddPatient);
+            this.Controls.Add(this.buttonDeletePatient);
+            this.Name = "ListOfPatients";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Devices";
             this.ResumeLayout(false);
@@ -144,12 +147,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button buttonDeletePatient;
+        private System.Windows.Forms.Button buttonAddPatient;
+        private System.Windows.Forms.Button buttonScheduleAnExamination;
+        private System.Windows.Forms.Button buttonCheckAnExamination;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButtonNewPatient;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
     }

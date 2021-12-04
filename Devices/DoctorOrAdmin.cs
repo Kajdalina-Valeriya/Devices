@@ -21,7 +21,7 @@ namespace Devices
 
         private void buttonDoctor_Click(object sender, EventArgs e)
         {
-            Form2 newForm = new Form2(this);
+            ListOfPatientsAndDevices newForm = new ListOfPatientsAndDevices(this);
             newForm.Show();
             Hide();
         }
@@ -29,7 +29,7 @@ namespace Devices
         private void ButtonAdmin_Click(object sender, EventArgs e)
         {
             //flag = false;
-            Form5 newForm = new Form5();//flag);
+            ListOfPatients newForm = new ListOfPatients();//flag);
             newForm.Show();
             Hide();
         }

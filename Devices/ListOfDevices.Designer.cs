@@ -1,6 +1,6 @@
 ﻿namespace Devices
 {
-    partial class Form3
+    partial class ListOfDevices
     {
         /// <summary>
         /// Required designer variable.
@@ -28,64 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.buttonOfBloodPressure = new System.Windows.Forms.Button();
+            this.buttonOfSkinTemperature = new System.Windows.Forms.Button();
+            this.buttonOfSkinMoisture = new System.Windows.Forms.Button();
+            this.buttonOfElectricalConductivity = new System.Windows.Forms.Button();
+            this.buttonOfHeartRate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.buttonBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonOfBloodPressure
             // 
-            this.button1.BackColor = System.Drawing.Color.GhostWhite;
-            this.button1.Location = new System.Drawing.Point(291, 91);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(221, 43);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Кровянного давления";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonOfBloodPressure.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonOfBloodPressure.Location = new System.Drawing.Point(291, 91);
+            this.buttonOfBloodPressure.Name = "buttonOfBloodPressure";
+            this.buttonOfBloodPressure.Size = new System.Drawing.Size(221, 43);
+            this.buttonOfBloodPressure.TabIndex = 0;
+            this.buttonOfBloodPressure.Text = "Кровянного давления";
+            this.buttonOfBloodPressure.UseVisualStyleBackColor = false;
+            this.buttonOfBloodPressure.Click += new System.EventHandler(this.buttonOfBloodPressure_Click);
             // 
-            // button2
+            // buttonOfSkinTemperature
             // 
-            this.button2.BackColor = System.Drawing.Color.GhostWhite;
-            this.button2.Location = new System.Drawing.Point(291, 161);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(221, 38);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Температуры кожи";
-            this.button2.UseVisualStyleBackColor = false;
+            this.buttonOfSkinTemperature.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonOfSkinTemperature.Location = new System.Drawing.Point(291, 160);
+            this.buttonOfSkinTemperature.Name = "buttonOfSkinTemperature";
+            this.buttonOfSkinTemperature.Size = new System.Drawing.Size(221, 38);
+            this.buttonOfSkinTemperature.TabIndex = 1;
+            this.buttonOfSkinTemperature.Text = "Температуры кожи";
+            this.buttonOfSkinTemperature.UseVisualStyleBackColor = false;
+            this.buttonOfSkinTemperature.Click += new System.EventHandler(this.buttonOfSkinTemperature_Click);
             // 
-            // button3
+            // buttonOfSkinMoisture
             // 
-            this.button3.BackColor = System.Drawing.Color.GhostWhite;
-            this.button3.Location = new System.Drawing.Point(291, 229);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(221, 38);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Влажности кожи";
-            this.button3.UseVisualStyleBackColor = false;
+            this.buttonOfSkinMoisture.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonOfSkinMoisture.Location = new System.Drawing.Point(291, 229);
+            this.buttonOfSkinMoisture.Name = "buttonOfSkinMoisture";
+            this.buttonOfSkinMoisture.Size = new System.Drawing.Size(221, 38);
+            this.buttonOfSkinMoisture.TabIndex = 2;
+            this.buttonOfSkinMoisture.Text = "Влажности кожи";
+            this.buttonOfSkinMoisture.UseVisualStyleBackColor = false;
+            this.buttonOfSkinMoisture.Click += new System.EventHandler(this.buttonOfSkinMoisture_Click);
             // 
-            // button4
+            // buttonOfElectricalConductivity
             // 
-            this.button4.BackColor = System.Drawing.Color.GhostWhite;
-            this.button4.Location = new System.Drawing.Point(291, 294);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(221, 40);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Электрической проводимости кожи";
-            this.button4.UseVisualStyleBackColor = false;
+            this.buttonOfElectricalConductivity.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonOfElectricalConductivity.Location = new System.Drawing.Point(291, 294);
+            this.buttonOfElectricalConductivity.Name = "buttonOfElectricalConductivity";
+            this.buttonOfElectricalConductivity.Size = new System.Drawing.Size(221, 49);
+            this.buttonOfElectricalConductivity.TabIndex = 3;
+            this.buttonOfElectricalConductivity.Text = "Электрической проводимости кожи";
+            this.buttonOfElectricalConductivity.UseVisualStyleBackColor = false;
+            this.buttonOfElectricalConductivity.Click += new System.EventHandler(this.buttonOfElectricalConductivity_Click);
             // 
-            // button5
+            // buttonOfHeartRate
             // 
-            this.button5.BackColor = System.Drawing.Color.GhostWhite;
-            this.button5.Location = new System.Drawing.Point(291, 358);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(221, 39);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Частоты пульса сердечного ритма";
-            this.button5.UseVisualStyleBackColor = false;
+            this.buttonOfHeartRate.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonOfHeartRate.Location = new System.Drawing.Point(291, 358);
+            this.buttonOfHeartRate.Name = "buttonOfHeartRate";
+            this.buttonOfHeartRate.Size = new System.Drawing.Size(221, 46);
+            this.buttonOfHeartRate.TabIndex = 4;
+            this.buttonOfHeartRate.Text = "Частоты пульса сердечного ритма";
+            this.buttonOfHeartRate.UseVisualStyleBackColor = false;
+            this.buttonOfHeartRate.Click += new System.EventHandler(this.buttonOfHeartRate_Click);
             // 
             // label1
             // 
@@ -97,31 +102,31 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Устройства для измерения:";
             // 
-            // button6
+            // buttonBack
             // 
-            this.button6.BackColor = System.Drawing.Color.GhostWhite;
-            this.button6.Location = new System.Drawing.Point(23, 402);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 36);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Назад";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.buttonBack.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonBack.Location = new System.Drawing.Point(23, 402);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(75, 36);
+            this.buttonBack.TabIndex = 7;
+            this.buttonBack.Text = "Назад";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
-            // Form3
+            // ListOfDevices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form3";
+            this.Controls.Add(this.buttonOfHeartRate);
+            this.Controls.Add(this.buttonOfElectricalConductivity);
+            this.Controls.Add(this.buttonOfSkinMoisture);
+            this.Controls.Add(this.buttonOfSkinTemperature);
+            this.Controls.Add(this.buttonOfBloodPressure);
+            this.Name = "ListOfDevices";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Devices";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -132,12 +137,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button buttonOfBloodPressure;
+        private System.Windows.Forms.Button buttonOfSkinTemperature;
+        private System.Windows.Forms.Button buttonOfSkinMoisture;
+        private System.Windows.Forms.Button buttonOfElectricalConductivity;
+        private System.Windows.Forms.Button buttonOfHeartRate;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

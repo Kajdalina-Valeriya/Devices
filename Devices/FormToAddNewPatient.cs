@@ -10,31 +10,31 @@ using System.Windows.Forms;
 
 namespace Devices
 {
-    public partial class Form4 : Form
+    public partial class FormToAddNewPatient : Form
     {
-        public Form4()
+        public FormToAddNewPatient()
         {
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBoxChoosePol_SelectedIndexChanged(object sender, EventArgs e)
         {
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonAddNewPatient_Click(object sender, EventArgs e)
         {
-            switch (comboBox1.Text) 
+            switch (comboBoxChoosePol.Text) 
             {
                 case "М":
                     {
-                        Form5 newForm = new Form5();
+                        ListOfPatients newForm = new ListOfPatients();
                         newForm.Show();
                         Hide();
                         break;
                     }
                 case "Ж":
                     {
-                        Form5 newForm = new Form5();
+                        ListOfPatients newForm = new ListOfPatients();
                         newForm.Show();
                         Hide();
                         break;
@@ -51,6 +51,16 @@ namespace Devices
             ListOfPatientsAndDevices newForm = new ListOfPatientsAndDevices();
             newForm.Show();
             Hide();
+        }
+
+        private void textBoxFIO_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxAge_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

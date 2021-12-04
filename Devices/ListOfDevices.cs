@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Devices
 {
-    public partial class Form3 : Form
+    public partial class ListOfDevices : Form
     {
-        public Form3()
+        public ListOfDevices()
         {
             InitializeComponent();
         }
@@ -22,11 +22,36 @@ namespace Devices
             
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void buttonBack_Click(object sender, EventArgs e)
         {
             ListOfPatientsAndDevices newForm = new ListOfPatientsAndDevices();
             newForm.Show();
             Hide();
+        }
+
+        private void buttonOfBloodPressure_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonOfSkinTemperature_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonOfSkinMoisture_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonOfElectricalConductivity_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonOfHeartRate_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

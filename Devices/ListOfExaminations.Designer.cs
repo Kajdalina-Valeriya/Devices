@@ -1,6 +1,6 @@
 ﻿namespace Devices
 {
-    partial class Form6
+    partial class ListOfExaminations
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button4 = new System.Windows.Forms.Button();
+            this.buttonAssign = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBoxExaminations = new System.Windows.Forms.CheckedListBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
@@ -38,16 +38,16 @@
             this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
-            // button4
+            // buttonAssign
             // 
-            this.button4.BackColor = System.Drawing.Color.GhostWhite;
-            this.button4.Location = new System.Drawing.Point(345, 381);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(125, 36);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Назначить";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.buttonAssign.BackColor = System.Drawing.Color.GhostWhite;
+            this.buttonAssign.Location = new System.Drawing.Point(345, 381);
+            this.buttonAssign.Name = "buttonAssign";
+            this.buttonAssign.Size = new System.Drawing.Size(125, 36);
+            this.buttonAssign.TabIndex = 3;
+            this.buttonAssign.Text = "Назначить";
+            this.buttonAssign.UseVisualStyleBackColor = false;
+            this.buttonAssign.Click += new System.EventHandler(this.buttonAssign_Click);
             // 
             // label1
             // 
@@ -59,20 +59,21 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Упражнения";
             // 
-            // checkedListBox1
+            // checkedListBoxExaminations
             // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.GhostWhite;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
+            this.checkedListBoxExaminations.BackColor = System.Drawing.Color.GhostWhite;
+            this.checkedListBoxExaminations.FormattingEnabled = true;
+            this.checkedListBoxExaminations.Items.AddRange(new object[] {
             "Бег",
             "Ходьба",
             "Силовые",
             "Прыжки",
             "Вело"});
-            this.checkedListBox1.Location = new System.Drawing.Point(186, 94);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(441, 257);
-            this.checkedListBox1.TabIndex = 6;
+            this.checkedListBoxExaminations.Location = new System.Drawing.Point(186, 94);
+            this.checkedListBoxExaminations.Name = "checkedListBoxExaminations";
+            this.checkedListBoxExaminations.Size = new System.Drawing.Size(441, 257);
+            this.checkedListBoxExaminations.TabIndex = 6;
+            this.checkedListBoxExaminations.SelectedIndexChanged += new System.EventHandler(this.checkedListBoxExaminations_SelectedIndexChanged);
             // 
             // dateTimePicker1
             // 
@@ -109,7 +110,7 @@
             this.dateTimePicker5.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker5.TabIndex = 11;
             // 
-            // Form6
+            // ListOfExaminations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -120,10 +121,10 @@
             this.Controls.Add(this.dateTimePicker3);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.checkedListBoxExaminations);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
-            this.Name = "Form6";
+            this.Controls.Add(this.buttonAssign);
+            this.Name = "ListOfExaminations";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Devices";
             this.ResumeLayout(false);
@@ -132,9 +133,9 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button buttonAssign;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.CheckedListBox checkedListBoxExaminations;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker3;

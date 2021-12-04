@@ -11,18 +11,23 @@ using System.Windows.Forms;
 namespace Devices
 {
    
-    public partial class Form6 : Form
+    public partial class ListOfExaminations : Form
     {
-        public Form6()
+        public ListOfExaminations()
         {
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void buttonAssign_Click(object sender, EventArgs e)
         {
             ListOfPatients newForm = new ListOfPatients();
             newForm.Show();
             Hide();
+        }
+
+        private void checkedListBoxExaminations_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

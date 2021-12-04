@@ -29,7 +29,7 @@ namespace Devices
 
         private void buttonbuttonListOfDevices_Click(object sender, EventArgs e)
         {
-            Form3 newForm = new Form3();
+            ListOfDevices newForm = new ListOfDevices();
             newForm.Show();
             Hide();
         }
@@ -37,7 +37,7 @@ namespace Devices
         private void buttonListOfPatients_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Список пациентов пуст! Введите данные пациента");
-            Form4 newForm = new Form4();
+            FormToAddNewPatient newForm = new FormToAddNewPatient();
             newForm.Show();
             Hide();
         }

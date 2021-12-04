@@ -54,7 +54,7 @@
             this.buttonAdmin.TabIndex = 1;
             this.buttonAdmin.Text = "Администратор";
             this.buttonAdmin.UseVisualStyleBackColor = false;
-            this.buttonAdmin.Click += new System.EventHandler(this.Button2_Click);
+            this.buttonAdmin.Click += new System.EventHandler(this.ButtonAdmin_Click);
             // 
             // DoctorOrAdmin
             // 
