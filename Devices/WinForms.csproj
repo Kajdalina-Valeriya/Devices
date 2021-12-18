@@ -88,6 +88,18 @@
     <Compile Include="Form7.Designer.cs">
       <DependentUpon>Form7.cs</DependentUpon>
     </Compile>
+    <Compile Include="PatientM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientM.Designer.cs">
+      <DependentUpon>PatientM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientW.Designer.cs">
+      <DependentUpon>PatientW.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DoctorOrAdmin.resx">
@@ -110,6 +122,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form7.resx">
       <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientM.resx">
+      <DependentUpon>PatientM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientW.resx">
+      <DependentUpon>PatientW.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

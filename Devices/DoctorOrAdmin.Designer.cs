@@ -66,7 +66,7 @@
             this.Controls.Add(this.buttonDoctor);
             this.Name = "DoctorOrAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Devices";
+            this.Text = "DoctorOrAdmin";
             this.ResumeLayout(false);
 
         }

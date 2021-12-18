@@ -15,12 +15,16 @@ namespace Devices
         public ListOfPatientsAndDevices()
         {
             InitializeComponent();
+            //if ()
+            //    buttonbuttonListOfDevices.Enabled = false;
+            //else buttonbuttonListOfDevices.Enabled = true;
+
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
+        //private void Form2_Load(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         public ListOfPatientsAndDevices(DoctorOrAdmin f)
         {

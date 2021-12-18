@@ -133,7 +133,7 @@
             this.Controls.Add(this.buttonAddNewPatient);
             this.Name = "FormToAddNewPatient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Devices";
+            this.Text = "FormToAddNewPatient";
             this.ResumeLayout(false);
             this.PerformLayout();
 

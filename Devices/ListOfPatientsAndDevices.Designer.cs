@@ -64,8 +64,8 @@
             this.Controls.Add(this.buttonListOfPatients);
             this.Name = "ListOfPatientsAndDevices";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Devices";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.Text = "ListOfPatientsAndDevices";
+            //this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
         }

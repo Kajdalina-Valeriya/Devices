@@ -139,7 +139,7 @@
             this.Controls.Add(this.buttonDeletePatient);
             this.Name = "ListOfPatients";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Devices";
+            this.Text = "ListOfPatients";
             this.ResumeLayout(false);
             this.PerformLayout();
 

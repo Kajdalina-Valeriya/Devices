@@ -16,6 +16,10 @@ namespace Devices
         public ListOfPatients()//bool flag)
         {
             InitializeComponent();
+            //if ()
+            //    buttonScheduleAnExamination.Enabled = false;
+            //else buttonScheduleAnExamination.Enabled = true;
+            
             //button3
         }
 
@@ -45,7 +49,9 @@ namespace Devices
 
         private void buttonCheckAnExamination_Click(object sender, EventArgs e)
         {
-
+            PatientM newForm = new PatientM();
+            newForm.Show();
+            Hide();
         }
     }
 }

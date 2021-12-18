@@ -126,7 +126,7 @@
             this.Controls.Add(this.buttonAssign);
             this.Name = "ListOfExaminations";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Devices";
+            this.Text = "ListOfExaminations";
             this.ResumeLayout(false);
             this.PerformLayout();
 

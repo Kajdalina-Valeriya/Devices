@@ -86,7 +86,7 @@
             this.buttonOfHeartRate.BackColor = System.Drawing.Color.GhostWhite;
             this.buttonOfHeartRate.Location = new System.Drawing.Point(291, 358);
             this.buttonOfHeartRate.Name = "buttonOfHeartRate";
-            this.buttonOfHeartRate.Size = new System.Drawing.Size(221, 46);
+            this.buttonOfHeartRate.Size = new System.Drawing.Size(221, 37);
             this.buttonOfHeartRate.TabIndex = 4;
             this.buttonOfHeartRate.Text = "Частоты пульса сердечного ритма";
             this.buttonOfHeartRate.UseVisualStyleBackColor = false;
@@ -128,7 +128,7 @@
             this.Controls.Add(this.buttonOfBloodPressure);
             this.Name = "ListOfDevices";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Devices";
+            this.Text = "ListOfDevices";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
