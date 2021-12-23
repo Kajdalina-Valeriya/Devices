@@ -36,7 +36,7 @@
             // 
             this.buttonDoctor.BackColor = System.Drawing.Color.GhostWhite;
             this.buttonDoctor.Font = new System.Drawing.Font("Old English Text MT", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDoctor.Location = new System.Drawing.Point(302, 147);
+            this.buttonDoctor.Location = new System.Drawing.Point(302, 143);
             this.buttonDoctor.Name = "buttonDoctor";
             this.buttonDoctor.Size = new System.Drawing.Size(237, 49);
             this.buttonDoctor.TabIndex = 0;

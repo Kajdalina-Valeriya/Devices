@@ -13,14 +13,14 @@ namespace Devices
     public partial class ListOfPatients : Form
     {
        
-        public ListOfPatients()//bool flag)
+        public ListOfPatients(bool flag)
         {
             InitializeComponent();
-            //if ()
-            //    buttonScheduleAnExamination.Enabled = false;
-            //else buttonScheduleAnExamination.Enabled = true;
+            if (flag == false)
+                buttonScheduleAnExamination.Enabled = false;
+            else 
+                buttonScheduleAnExamination.Enabled = true;
             
-            //button3
         }
 
         private void buttonScheduleAnExamination_Click(object sender, EventArgs e)
@@ -49,9 +49,18 @@ namespace Devices
 
         private void buttonCheckAnExamination_Click(object sender, EventArgs e)
         {
-            PatientM newForm = new PatientM();
-            newForm.Show();
-            Hide();
+            //if (patientm == true)
+            //{
+                PatientM newForm = new PatientM();
+                newForm.Show();
+                Hide();
+            //}
+            //else
+            //{
+            //    PatientW newForm = new PatientW();
+            //    newForm.Show();
+            //    Hide();
+            //}
         }
     }
 }

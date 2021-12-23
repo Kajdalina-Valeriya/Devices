@@ -96,10 +96,9 @@
             this.radioButtonNewPatient.AutoSize = true;
             this.radioButtonNewPatient.Location = new System.Drawing.Point(12, 25);
             this.radioButtonNewPatient.Name = "radioButtonNewPatient";
-            this.radioButtonNewPatient.Size = new System.Drawing.Size(278, 24);
+            this.radioButtonNewPatient.Size = new System.Drawing.Size(21, 20);
             this.radioButtonNewPatient.TabIndex = 5;
             this.radioButtonNewPatient.TabStop = true;
-            this.radioButtonNewPatient.Text = "Кайдалина Валерия Андреевна";
             this.radioButtonNewPatient.UseVisualStyleBackColor = true;
             this.radioButtonNewPatient.CheckedChanged += new System.EventHandler(this.radioButtonNewPatient_CheckedChanged);
             // 

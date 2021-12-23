@@ -151,5 +151,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Presentor\Presentor.csproj">
+      <Project>{9f25dadc-0cfa-4b7f-9981-c046515af731}</Project>
+      <Name>Presentor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

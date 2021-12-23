@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Presentor;
+using Presentor.Presentors;
+
 
 namespace Devices
 {
     public partial class PatientW : Form
     {
+        NewPatientPresentor presentor;
         public PatientW()
         {
             InitializeComponent();
+            presentor = new NewPatientPresentor();
         }
 
         private void buttonOfBloodPressure_Click(object sender, EventArgs e)

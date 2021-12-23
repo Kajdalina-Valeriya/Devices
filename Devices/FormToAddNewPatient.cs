@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Presentor;
+using Presentor.;
 
 namespace Devices
 {
@@ -23,18 +25,20 @@ namespace Devices
 
         private void buttonAddNewPatient_Click(object sender, EventArgs e)
         {
-            switch (comboBoxChoosePol.Text) 
+            bool flag = true;
+            switch (comboBoxChoosePol.Text)
             {
+                // bool flag = true;
                 case "М":
                     {
-                        ListOfPatients newForm = new ListOfPatients();
+                        ListOfPatients newForm = new ListOfPatients(flag);
                         newForm.Show();
                         Hide();
                         break;
                     }
                 case "Ж":
                     {
-                        ListOfPatients newForm = new ListOfPatients();
+                        ListOfPatients newForm = new ListOfPatients(flag);
                         newForm.Show();
                         Hide();
                         break;
@@ -55,8 +59,9 @@ namespace Devices
 
         private void textBoxFIO_TextChanged(object sender, EventArgs e)
         {
-
+           
         }
+    
 
         private void textBoxAge_TextChanged(object sender, EventArgs e)
         {
